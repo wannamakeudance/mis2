@@ -24,7 +24,7 @@ function render (view, data) {
 }
 
 function index (req, res) {
-    const template = render('index', { title: 'cov-x', bundle: 'index' })
+    const template = render('index', { title: 'home', bundle: 'index' })
     indexRenderer.render(req, res, template)
 }
 
